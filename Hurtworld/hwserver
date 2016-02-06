@@ -1,9 +1,5 @@
 #!/bin/bash
 # Hurtworld
-# Server Management Script
-# Author: Daniel Gibbs,
-# Contributor: UltimateByte
-# Website: http://gameservermanagers.com
 if [ -f ".dev-debug" ]; then
 	exec 5>dev-debug.log
 	BASH_XTRACEFD="5"
@@ -53,8 +49,8 @@ parms="-batchmode -nographics -exec \"host ${port} ${map} ${loadsave};queryport 
 # Github Branch Select
 # Allows for the use of different function files
 # from a different repo and/or branch.
-githubuser="dgibbs64"
-githubrepo="linuxgsm"
+githubuser="dids91"
+githubrepo="Es-Help"
 githubbranch="master"
 
 # Steam
